@@ -122,5 +122,8 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/qcom/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += device/qcom/sepolicy/public
 
+# Keymaster
+TARGET_KEYMASTER_VARIANT := samsung
+
 # Inherit the proprietary files
 include vendor/samsung/m52xq/BoardConfigVendor.mk
