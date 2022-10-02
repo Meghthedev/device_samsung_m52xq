@@ -1,16 +1,22 @@
-# Initial device tree for m52xq
+Copyright (C) 2022 The Android Open Source Project
 
-Samsung Galaxy M52 5G
+Device configuration for Samsung Galaxy M52 5G
+===============================================
+The Samsung Galaxy M52 5G (codename _m52xq_, _M526B_) is a phone from M series of Samsung
 
-![M52xq](https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-m52-5g-1.jpg "m52xq")
+## Device specifications
 
+Basic    | Spec Sheet
+--------:|:----------------------
+SoC      | Qualcomm Snapdragon 778G
+CPU      | Octa-core (4x2.4ghz Kryo 670 & 4x1.9ghz Kryo 670)
+GPU      | Adreno 642L
+Memory   | 128GB 6GB RAM, 128GB 8GB RAM
+Shipped Android version | Android 11, OneUI 3.1
+Battery  | Li-ion 4860mAh, non-removable
+Display  | Super AMOLED, 120Hz, 800 nits, 6.7 inch, 1080 x 2400 pixels, 20:9 ratio
 
-Display: 6.70-inch (1080x2400)
-Processor: Qualcomm Snapdragon 778G
-Front Camera: 32MP
-Rear Camera: 64MP + 12MP + 5MP
-RAM : 6GB, 8GB
-Storage : 128GB
-Battery Capacity : 5000mAh
-OS Launched with : Android 11
+## Device picture
+
+![A52SXQ](https://files.tecnoblog.net/wp-content/uploads/2021/09/galaxy-m52-5g-produto.png)
 
