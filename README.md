@@ -2,7 +2,7 @@
 
 Samsung Galaxy M52 5G
 
-https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-m52-5g-1.jpg
+![M52xq](https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-m52-5g-1.jpg "m52xq")
 
 
 Display: 6.70-inch (1080x2400)
