@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<MediaCodecs>
+    <Encoders>
+        <MediaCodec name="c2.qti.avc.encoder.secure" type="video/avc-wfd">
+            <Alias name="OMX.qcom.video.encoder.avc.secure"/>
+            <Limit name="size" min="128x128" max="4096x2176" />
+            <Limit name="alignment" value="2x2" />
+            <Limit name="block-size" value="16x16" />
+            <Limit name="blocks-per-second" min="64" max="1044480" />
+            <Limit name="block-count" range="64-34816" />
+            <Limit name="bitrate" range="1-100000000" />
+            <Limit name="frame-rate" range="1-240" />
+            <Limit name="concurrent-instances" max="16" />
+            <Feature name="intra-refresh" />
+            <Feature name="bitrate-modes" value="VBR,CBR" />
+            <Attribute name="software-codec" />
+            <Limit name="performance-point-3840x2160" value="30" />
+            <Limit name="performance-point-1920x1080" value="120" />
+            <Limit name="performance-point-1280x720" value="240" />
+        </MediaCodec>
+        <MediaCodec name="c2.qti.hevc.encoder.secure" type="video/hevc-wfd">
+            <Alias name="OMX.qcom.video.encoder.hevc.secure"/>
+            <Limit name="size" min="128x128" max="4096x2176" />
+            <Limit name="alignment" value="2x2" />
+            <Limit name="block-size" value="16x16" />
+            <Limit name="blocks-per-second" min="64" max="1044480" />
+            <Limit name="block-count" range="64-34816" />
+            <Limit name="bitrate" range="1-100000000" />
+            <Limit name="frame-rate" range="1-240" />
+            <Limit name="concurrent-instances" max="16" />
+            <Feature name="bitrate-modes" value="VBR,CBR" />
+            <Feature name="intra-refresh" />
+            <Attribute name="software-codec" />
+            <Limit name="performance-point-3840x2160" value="30" />
+            <Limit name="performance-point-1920x1080" value="120" />
+            <Limit name="performance-point-1280x720" value="240" />
+        </MediaCodec>
+    </Encoders>
+</MediaCodecs>
